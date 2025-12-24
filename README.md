@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # translator
 
 A new Flutter project.
@@ -14,3 +15,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# gdg-translator
+Fresher's TechSprint - Team "hindi nahi aata ji" - Building to cross the language barriers, empowering collaborative education
+>>>>>>> 70b9194601a2957abb3cbee61181413bb68a9d8b
