@@ -1,21 +1,49 @@
-<<<<<<< HEAD
-# translator
 
-A new Flutter project.
+ # LectureLive 🎓
 
-## Getting Started
+Event: Fresher's TechSprint — Organized by GDG on Campus IIT Mandi
 
-This project is a starting point for a Flutter application.
+LectureLive is a real-time translation application designed to bridge language barriers in educational environments. It enables instructors to broadcast audio that is instantly transcribed and translated into the student's preferred language on their local device.
 
-A few resources to get you started if this is your first Flutter project:
+ ## Key Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Real-Time Transcription: Instant speech-to-text conversion for the broadcaster.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# gdg-translator
-Fresher's TechSprint - Team "hindi nahi aata ji" - Building to cross the language barriers, empowering collaborative education
->>>>>>> 70b9194601a2957abb3cbee61181413bb68a9d8b
+On-Device Translation: Utilizes Google ML Kit for private, offline-capable translation.
+
+Low Latency Sync: Powered by Firebase Firestore for immediate subtitle delivery.
+
+Regional Language Support: Specialized support for Indian languages (Hindi, Bengali, Tamil, Telugu, Marathi, etc.) alongside major international languages.
+
+Dual Input Modes: Supports both voice broadcasting and manual text entry.
+
+## Tech Stack
+
+Frontend: Flutter (Dart)
+
+Backend: Firebase Firestore (Real-time Database)
+
+Machine Learning: Google ML Kit (On-Device Translation)
+
+Audio Processing: speech_to_text package
+
+## User Workflow
+
+### Teacher (Broadcaster)
+
+Select Teacher mode and grant microphone permissions.
+
+Share the unique Lecture ID displayed on the screen.
+
+Tap Start Speaking to begin the session.
+
+### Student (Receiver)
+
+Select Student mode.
+
+Enter Name and the provided Lecture ID.
+
+Select the Source Language (Teacher's) and Target Language (Student's).
+
+Tap Join Class to receive live, translated subtitles.
+
