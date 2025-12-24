@@ -1,3 +1,5 @@
+# Download android apk at:
+https://github.com/Kanishk-Goel-19/gdg-translator/releases/download/v1.0/app-release.apk
 
  # LectureLive 🎓
 
