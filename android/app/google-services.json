@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "156261409024",
+    "project_id": "gdg-translator",
+    "storage_bucket": "gdg-translator.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156261409024:android:1891919263b366125f13e5",
+        "android_client_info": {
+          "package_name": "com.example.translator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBSDUXOV-iCs3imdr3UJJ02lipIsM8e0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,33 @@
+name: gdg_translator
+description: Real-time translation app using ML Kit (Free).
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter_tts: ^3.8.3
+  flutter:
+    sdk: flutter
+
+  # --- Firebase Core & Database ---
+  firebase_core: ^2.24.2
+  cloud_firestore: ^4.14.0
+
+  # --- Audio & Translation ---
+  speech_to_text: ^7.3.0
+  google_mlkit_translation: ^0.10.0
+
+  # --- Utilities ---
+  uuid: ^4.2.1
+  permission_handler: ^11.1.0
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true  
